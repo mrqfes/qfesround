@@ -5,17 +5,17 @@
   "logo": {
     "file": "",
     "link": "",
-    "text": "AA"
+    "text": "MR"
   },
   "text": {
-    "more": "The Compliance and Governance Unit has created a map of accredited training and where the ownership of training  sits across the different areas in QFES.\nThis will be used as a source for the configuration of programs in Nexus Learning and to assist in compliance.",
-    "intro": "Units of Competency mapped across all Accreddited QFES Programs",
-    "title": "Units of Competency mapped across all Accreddited QFES Programs"
+    "more": "displays all topics against levels",
+    "intro": "displays all topics against levels",
+    "title": "ERM"
   },
   "legend": {
     "edgeLabel": "Links",
-    "colorLabel": "Colour",
-    "nodeLabel": "UoC"
+    "colorLabel": "Level",
+    "nodeLabel": "Identified area"
   },
   "features": {
     "search": true,
@@ -33,17 +33,17 @@
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
       "defaultLabelColor": "#000",
-      "labelThreshold": 3,
+      "labelThreshold": 10,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
       "defaultLabelSize": 14
     },
     "graphProperties": {
-      "maxEdgeSize": 2,
-      "minEdgeSize": 1,
-      "minNodeSize": 10,
-      "maxNodeSize": 30
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
     },
     "mouseProperties": {
       "maxRatio": 20,
